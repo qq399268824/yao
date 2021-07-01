@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thanos描述 | 运维文档</title>
+    <link>/thanos/</link>
+      <atom:link href="/thanos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thanos描述</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Thanos描述</title>
+      <link>/thanos/</link>
+    </image>
+    
+    <item>
+      <title>Deploy</title>
+      <link>/thanos/deploy/</link>
+      <pubDate>Wed, 30 Jun 2021 23:00:00 +0800</pubDate>
+      <guid>/thanos/deploy/</guid>
+      <description>&lt;p&gt;Welcome to the &lt;em&gt;Project Docs&lt;/em&gt; template!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;部署成功后
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul class=&#34;cta-group&#34;&gt;
+  
+  &lt;li&gt;
+    &lt;a href=&#34;ops&#34;  class=&#34;btn btn-primary px-3 py-3&#34;&gt;👉 Get Started with ops&lt;/a&gt;
+  &lt;/li&gt;
+  
+  
+&lt;/ul&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>/thanos/faq/</link>
+      <pubDate>Wed, 30 Jun 2021 23:00:00 +0800</pubDate>
+      <guid>/thanos/faq/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

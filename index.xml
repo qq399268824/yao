@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>运维文档</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>运维文档</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language><lastBuildDate>Wed, 30 Jun 2021 23:00:00 +0800</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>运维文档</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Deploy</title>
+      <link>/thanos/deploy/</link>
+      <pubDate>Wed, 30 Jun 2021 23:00:00 +0800</pubDate>
+      <guid>/thanos/deploy/</guid>
+      <description>&lt;p&gt;Welcome to the &lt;em&gt;Project Docs&lt;/em&gt; template!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;部署成功后
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul class=&#34;cta-group&#34;&gt;
+  
+  &lt;li&gt;
+    &lt;a href=&#34;ops&#34;  class=&#34;btn btn-primary px-3 py-3&#34;&gt;👉 Get Started with ops&lt;/a&gt;
+  &lt;/li&gt;
+  
+  
+&lt;/ul&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Deploy</title>
+      <link>/guide/deploy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/guide/deploy/</guid>
+      <description>&lt;p&gt;Welcome to the &lt;em&gt;Project Docs&lt;/em&gt; template!&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;部署成功后
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul class=&#34;cta-group&#34;&gt;
+  
+  &lt;li&gt;
+    &lt;a href=&#34;ops&#34;  class=&#34;btn btn-primary px-3 py-3&#34;&gt;👉 Get Started with ops&lt;/a&gt;
+  &lt;/li&gt;
+  
+  
+&lt;/ul&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>/thanos/faq/</link>
+      <pubDate>Wed, 30 Jun 2021 23:00:00 +0800</pubDate>
+      <guid>/thanos/faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>/guide/faq/</link>
+      <pubDate>Wed, 30 Jun 2021 23:00:00 +0800</pubDate>
+      <guid>/guide/faq/</guid>
+      <description>&lt;h2 id=&#34;一-修改网站名&#34;&gt;一. 修改网站名&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;目的&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;修改网站名称
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解决&lt;/p&gt;
+&lt;p&gt;修改文件./config/_default/config.yaml&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title: &#39;My Project&#39; # Website name
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;二-顶层导航增加&#34;&gt;二. 顶层导航增加&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;目的&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;新增目录
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/y0086/documentimage/raw/master/img/image-20210630233522210.png&#34; alt=&#34;image-20210630233522210.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;解决&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1.在./content目录下新增ops文件夹和ops文件夹下面_index.md&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;##ops
+####_index.md
+---
+title: 运维
+type: book  # Do not modify.
+toc: false
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://gitee.com/y0086/documentimage/raw/master/img/image-20210630233110790.png&#34; alt=&#34;image-20210630233110790&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.修改./config/_default/menu.yaml&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;name: 运维
+#url 为文件夹名称
+url: ops/
+weight: 20
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;三-网站切换中文&#34;&gt;三. 网站切换中文&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;目的&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;网站不会显示需要翻译
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;解决&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;1.修改配置文件./config_default/languages.yaml&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;# Default language
+en:
+  languageCode: en
+修改为
+# Default language
+zh:
+  languageCode: zh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2.修改./config_default/config.yaml&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;## LANGUAGE
+############################
+defaultContentLanguage: en
+修改为
+## LANGUAGE
+############################
+defaultContentLanguage: zh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;四-编译&#34;&gt;四. 编译&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;编译成静态文件&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;hugo --baseUrl=&amp;quot;/&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;编译成docker&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;docker build -t guid_web:1.0 .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;五-部署&#34;&gt;五. 部署&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;使用docker 启动&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;docker run --name my_guid_web -p 80:80 --rm -d guid_web:1.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用docker-compose 启动&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cd docker
+docker-compose -f docker-compose.yml up -d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
