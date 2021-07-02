@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thanos描述 | 运维文档</title>
-    <link>/thanos/</link>
-      <atom:link href="/thanos/index.xml" rel="self" type="application/rss+xml" />
+    <link>yao/thanos/</link>
+      <atom:link href="yao/thanos/index.xml" rel="self" type="application/rss+xml" />
     <description>Thanos描述</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>zh</language><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>/yao/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Thanos描述</title>
-      <link>/thanos/</link>
+      <link>yao/thanos/</link>
     </image>
     
     <item>
       <title>Deploy</title>
-      <link>/thanos/deploy/</link>
+      <link>yao/thanos/deploy/</link>
       <pubDate>Wed, 30 Jun 2021 23:00:00 +0800</pubDate>
-      <guid>/thanos/deploy/</guid>
+      <guid>yao/thanos/deploy/</guid>
       <description>&lt;p&gt;Welcome to the &lt;em&gt;Project Docs&lt;/em&gt; template!&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;部署成功后
 &lt;/code&gt;&lt;/pre&gt;
@@ -34,9 +34,9 @@
     
     <item>
       <title>FAQ</title>
-      <link>/thanos/faq/</link>
+      <link>yao/thanos/faq/</link>
       <pubDate>Wed, 30 Jun 2021 23:00:00 +0800</pubDate>
-      <guid>/thanos/faq/</guid>
+      <guid>yao/thanos/faq/</guid>
       <description></description>
     </item>
     
