@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>yao/guide/</loc>
+    <loc>/yao/guide/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>yao/thanos/</loc>
+    <loc>/yao/thanos/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>yao/thanos/deploy/</loc>
+    <loc>/yao/thanos/deploy/</loc>
     <lastmod>2021-06-30T23:00:00+08:00</lastmod>
   </url><url>
-    <loc>yao/guide/deploy/</loc>
+    <loc>/yao/guide/deploy/</loc>
   </url><url>
-    <loc>yao/thanos/faq/</loc>
+    <loc>/yao/thanos/faq/</loc>
     <lastmod>2021-06-30T23:00:00+08:00</lastmod>
   </url><url>
-    <loc>yao/guide/faq/</loc>
+    <loc>/yao/guide/faq/</loc>
     <lastmod>2021-06-30T23:00:00+08:00</lastmod>
   </url><url>
-    <loc>yao/</loc>
+    <loc>/yao/</loc>
     <lastmod>2021-06-30T23:00:00+08:00</lastmod>
   </url><url>
-    <loc>yao/authors/</loc>
+    <loc>/yao/authors/</loc>
   </url><url>
-    <loc>yao/categories/</loc>
+    <loc>/yao/categories/</loc>
   </url><url>
-    <loc>yao/tags/</loc>
+    <loc>/yao/tags/</loc>
   </url>
 </urlset>
